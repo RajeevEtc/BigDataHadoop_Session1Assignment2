@@ -48,13 +48,30 @@ Example: __$rm -r mydirectory__
   Example: $date
   Output: Wed Jul 12 00:58:04 IST 2017
  
- 12. __cal__:
+ 12. __cal__: Displays calender of current month from command line in standard calender format.
+ Example: $cal
+ Output:
+ July 2017
+Su Mo Tu We Th Fr Sa
+                   1
+ 2  3  4  5  6  7  8
+ 9 10 11 12 13 14 15
+16 17 18 19 20 21 22
+23 24 25 26 27 28 29
+30 31
  
- 13. __mv__:
+ 13. __mv__:The mv command is used to move or rename files.
+ Example:$mv file.txt myDir/
+ Output: Moves file.txt to myDir available under current working directory
  
- 14. __cp__:
+ 14. __cp__:The cp command is used to make copies of files and directories.
+Example: $cp t1.txt t2.txt
+Output: The contents of t1.txt will be copied to t2.txt. If t2.txt does not exists then it will created newly otherwise its contents will be over-written.
  
- 15. __which__:
+ 15. __which__: Locate the executable file path associated with a given command.
+ Example: $which sh
+ Output: /bin/sh
+
 
 
 
